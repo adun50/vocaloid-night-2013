@@ -1,0 +1,155 @@
+/******** Main ********/
+body { height: 1361px; background: #000 url('../img/bg.jpg') top center no-repeat; }
+
+#container { 
+    width: 950px; height: 1201px; margin: 0 auto;
+}
+#header {
+    width: 100%; height: 84px; padding-top: 32px;
+}
+#content {
+    width: 100%; height: 1065px;
+    margin-top: 15px;
+}
+#footer {
+    width: 100%; height: 95px;
+    padding: 35px 0 30px;
+    color: #fff;
+}
+#footer-inner-bg {
+    width: 100%; height: 95px;
+    background: url('../img/footer-bg.png');
+}
+#footer-inner {
+    width: 950px; 
+    margin: 0 auto; padding: 20px 0;
+    text-align: center;
+}
+#footer-inner ul { display: block; }
+#footer-inner hr {
+    width: 90%; margin: 20px auto 5px; border: 1px solid #8e8e8e;
+}
+#footer-inner a { color: #fff; }
+#footer-inner a:hover { text-decoration: none; }
+#footer-inner ul#footer-credits { font-size: 12px; }
+#footer-inner ul#footer-credits .ico-circle,
+#footer-inner ul#footer-credits .ico-wand {
+    margin-top: -1px;
+}
+
+#hero { width:100%; height: 270px; }
+#inner-content { 
+    width: 100%; height: 795px; 
+    overflow: hidden; background-color: #454545;
+}
+
+/******** Sprites ********/
+[class^="ico-"],
+[class*=" ico-"] {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    *margin-right: .3em;
+    line-height: 19px;
+    vertical-align: text-top;
+    background-image: url("../img/ico-sprite.png");
+    background-position: 19px 19px;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+.ico-arrow {
+    background-position: 0 0;
+}
+.ico-circle {
+    background-position: -19px 0;
+}
+.ico-plus {
+    background-position: -38px 0;
+}
+.ico-wand {
+    background-position: -57px 0;
+}
+.ico-square {
+    width: 6px; height: 6px;
+    background-image: url("../img/li-square.jpg");
+    background-position: 0 0;
+    line-height: 14px;
+    margin-top: 5px;
+}
+
+[class^="sprite-"],
+[class*=" sprite-"] {
+    display: inline-block;
+    height: 34px;
+    *margin-right: .3em;
+    vertical-align: text-top;
+    background-image: url("../img/sprite-btns.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.sprite-home { width: 182px; background-position: 0 0; }
+.sprite-latest { width: 171px; background-position: 0 -34px; }
+.sprite-most-popular { width: 208px; background-position: 0 -68px; }
+.sprite-popular { width: 179px; background-position: 0 -102px; }
+.sprite-twitter { width: 35px; background-position: 0 -136px; }
+.sprite-facebook { width: 35px; background-position: -35px -136px; }
+.sprite-youtube { width: 35px; background-position: -70px -136px; }
+
+/******** Page Styles ********/
+.text-content { color: #4a4a4a; }
+.text-content h3 { color: #0194e9; border-bottom: 1px solid #0194e9; }
+.text-content .question { color: #1a6afd; font-weight: bold; }
+
+.divider { width: 100%; height:0; margin-bottom: 10px; border-bottom: 1px solid #727272; }
+
+.link-column { float: left; margin-left: 10px; padding: 8px 0; }
+.link-column a { color: #00ddfe; }
+
+ ul.video-list > li, ul.video-list > li > a { line-height: 34px; }
+ ul.video-list > li > a { margin-top: 20px; }
+
+#home-content {
+    width:900px; height: 402px;
+    margin: 20px auto; padding: 100px 0 0;
+    background: url('../img/box-home.png') no-repeat;
+}
+#home-content-inner {
+    width: 780px; height: 330px;
+    margin: 0 auto; padding: 10px;
+    background-color: #dadada;
+    overflow-y: auto;
+}
+
+#map-container {
+    width:850px; margin: 30px auto 0;
+    background-color: #212121; text-align: center;
+    color: #fff;
+}
+#map-container #map-address { width: 100%; height: 50px; padding: 10px 0; }
+#map-container #map-address a { color: #fff; }
+
+#faq-content {
+    width: 900px; height: 587px;
+    margin: 20px auto; padding-top: 100px;
+    background: url('../img/box-faq.png') no-repeat;
+}
+#faq-content-inner {
+    width: 780px; height: 520px;
+    margin: 0 auto; padding: 10px;
+    background-color: #dadada;
+    overflow-y: auto;
+}
+
+.profile-container {
+    width: 850px; height: 640px;
+    margin: 0 auto; padding: 20px 0;
+    color: #b9b9b9;
+}
+.profile-container .left-col, 
+.profile-container .right-col { width: 400px; float: left; }
+.profile-container .right-col { width: 380px; max-height: 650px; margin-left: 40px; padding: 0 20px 0 0; overflow-y: auto; }
+
+
+.jspTrack { background: none repeat scroll 0 0 #c3c3c3; }
+.jspDrag { background: none repeat scroll 0 0 #3bb7b9; }
