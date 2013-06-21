@@ -90,7 +90,7 @@ body { height: 1361px; background: #000 url('../img/bg.jpg') top center no-repea
 }
 
 .sprite-home { width: 182px; background-position: 0 0; }
-.sprite-latest { width: 171px; background-position: 0 -34px; }
+.sprite-latest { width: 179px; background-position: 0 -34px; }
 .sprite-most-popular { width: 208px; background-position: 0 -68px; }
 .sprite-popular { width: 179px; background-position: 0 -102px; }
 .sprite-twitter { width: 35px; background-position: 0 -136px; }
