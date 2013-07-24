@@ -9,5 +9,7 @@ $(function() {
         }
     });
     
+    $('.fancybox-gallery').fancybox();
+    
     $('.scrollpane').jScrollPane({mouseWheelSpeed : 50});
 });
